@@ -5,7 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="stylesheet" href="style.css" />
-        <title>Document</title>
+        <title>Animated Login Form</title>
     </head>
     <body>
         <section>
@@ -15,23 +15,33 @@
                         <h2>Login</h2>
                         <div class="input-box">
                             <ion-icon name="mail-outline"></ion-icon>
-                            <input type="text" required />
-                            <label for="">Email</label>
+                            <input
+                                id="email"
+                                type="text"
+                                placeholder=""
+                                required />
+                            <label for="email">Email</label>
                         </div>
                         <div class="input-box">
                             <ion-icon name="lock-closed-outline"></ion-icon>
-                            <input type="password" required />
-                            <label for="">Password</label>
+                            <input
+                                id="password"
+                                type="password"
+                                placeholder=""
+                                required />
+                            <label for="password">Password</label>
                         </div>
                         <div class="forget">
                             <label for="">
                                 <input type="checkbox" />Remember Me
-                                <a href="">Forget Password</a>
+                                <a href="#">Forget Password</a>
                             </label>
                         </div>
                         <button>Log in</button>
                         <div class="register">
-                            <p>Don't have an account <a href="">Register</a></p>
+                            <p>
+                                Don't have an account <a href="#">Register</a>
+                            </p>
                         </div>
                     </form>
                 </div>
