@@ -87,19 +87,20 @@ input:valid ~ label {
     font-size: .9em;
     color: #fff;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
 }
 
-.forget label input {
+.forget input {
     margin-right: 3px;
 }
 
-.forget label a {
+.forget a {
     color: #fff;
     text-decoration: none;
+    margin-left: 1rem;
 }
 
-.forget label a:hover {
+.forget a:hover {
     text-decoration: underline;
 }
 
@@ -113,6 +114,10 @@ button {
     cursor: pointer;
     font-size: 1em;
     font-weight: 600;
+}
+
+button:hover {
+    background: #ffffffd7; /* can be adusted */
 }
 
 .register {
